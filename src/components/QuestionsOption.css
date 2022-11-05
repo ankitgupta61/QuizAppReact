@@ -1,0 +1,31 @@
+.options {
+  background: #f3f4fa;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+}
+
+.selected {
+  font-weight: bold;
+  background-color: white;
+  border: 4px solid #44b77b;
+}
+
+.selected .select-option {
+  border-color: #44b77b;
+}
+
+.select-option {
+  display: block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 2px solid gray;
+  margin-right: 16px;
+}
+
+.options svg {
+  margin-right: 16px;
+}

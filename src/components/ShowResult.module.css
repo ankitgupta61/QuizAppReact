@@ -1,0 +1,121 @@
+.showResult {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10vh;
+  background-color: white;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 20px;
+  position: relative;
+}
+
+.resultCorrect {
+  background: #b9ffda;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.resultInCorrect {
+  background: #fcd8cc;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.resultCorrectCircle {
+  display: block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #44b77b;
+  margin-right: 16px;
+}
+
+.resultIncorrectCircle {
+  display: block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: rgb(249, 73, 73);
+  margin-right: 16px;
+}
+
+.nextBtn {
+  width: 80vw;
+  background: #ff3b3f;
+  padding: 15px 0px;
+  text-align: center;
+  border-radius: 2em;
+  border-style: none;
+  color: white;
+  font-weight: 800;
+  font-size: larger;
+}
+
+.gauge {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: conic-gradient(
+    yellow 30deg,
+    green 90deg,
+    transparent 90deg,
+    transparent 270deg,
+    red 270deg,
+    yellow 330deg
+  );
+}
+
+.gaugeMask {
+  height: 180px;
+  width: 180px;
+  background-color: white;
+  border-radius: 50%;
+  border: 20px solid lightgray;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid transparent;
+  transform: rotate(315deg);
+}
+
+.arrow {
+  background-color: #000000;
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  width: 80px;
+  height: 88px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: bottom;
+}
+
+.arrowMask {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  background-color: white;
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scorePer {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: -26px;
+}
