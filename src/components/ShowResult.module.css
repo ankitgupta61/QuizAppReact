@@ -11,7 +11,10 @@
   padding: 20px;
   position: relative;
 }
-
+.resultText {
+  font-weight: 700;
+  font-size: x-large;
+}
 .resultCorrect {
   background: #b9ffda;
   padding: 20px;

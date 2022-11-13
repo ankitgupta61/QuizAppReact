@@ -21,7 +21,7 @@ const Home = () => {
           </div>
           <div className={classes.quiz}>Quiz</div>
           <button onClick={startQuiz} className={classes.btn}>
-            Start
+            Start Quiz
           </button>
         </div>
       </center>

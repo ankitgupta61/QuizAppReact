@@ -15,7 +15,7 @@ const ShowResult = (props) => {
 
   return (
     <div className={classes.showResult}>
-      <p>Your Result</p>
+      <p className={classes.resultText}>Your Result</p>
       <div className={classes.gauge}>
         <div className={classes.gaugeMask}></div>
         <div
